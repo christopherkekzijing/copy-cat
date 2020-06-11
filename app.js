@@ -3,7 +3,8 @@ const navSlide = () => {
   const nav = document.querySelector(".sidebar");
 
   burger.addEventListener("click", () => {
-    nav.classList.toggle(".s-active");
+    nav.classList.toggle("s-active");
+    burger.classList.toggle("toggle");
   });
 };
 

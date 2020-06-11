@@ -6,6 +6,20 @@
 }
 
 .burger {
+  background-color: white;
+  padding: 20px 0 10px 20px;
   cursor: pointer;
   display: none;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  transition: 0.5 ease;
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+  transition: 0.5 ease;
 }

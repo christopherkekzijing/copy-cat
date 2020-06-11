@@ -5,6 +5,8 @@
   height: 100vh;
   width: 22%;
   border-right: 1px solid #ededed;
+  z-index: 1;
+  transition: transform 0.5s ease;
 }
 .logo {
   font-size: 1.5rem;
