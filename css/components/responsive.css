@@ -1,0 +1,152 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    margin-left: -351px;
+  }
+  .sidebar {
+    transform: translateX(-200%);
+  }
+  .upcoming-wrap {
+    width: 90vw;
+    padding: 40px 0;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+  .wrapper {
+    margin-left: -221px;
+  }
+  .sidebar {
+    transform: translateX(-200%);
+  }
+  .upcoming-wrap {
+    width: 90vw;
+    padding: 35px 0 0 0;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .upcoming-wrap h2 {
+    padding-bottom: 20px;
+  }
+  .promotion-card h2 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+  .bookings-header {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 0px;
+  }
+  .left-bar {
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 50vw;
+  }
+  .right-bar a {
+  }
+  .right-bar {
+    width: 40vw;
+  }
+  .card {
+    justify-content: center;
+    width: 89vw;
+    align-items: flex-start;
+    height: 350px;
+    flex-direction: column;
+  }
+  .card .dates {
+    padding: 0 0 20px 0;
+    margin: 0 25px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+  }
+  .card .status {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .card .description {
+    padding: 20px 20px;
+    flex-grow: 0;
+  }
+  .promotion-banner {
+    width: 520px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .burger {
+    display: block !important;
+  }
+  .wrapper {
+    margin-left: -291px;
+  }
+  .sidebar {
+    width: 500px;
+    transform: translateX(-200%);
+  }
+
+  .upcoming-wrap {
+    width: 90vw;
+    padding: 120px 0 0 0;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .upcoming-wrap h2 {
+    padding-bottom: 20px;
+  }
+  .promotion-card h2 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+  .bookings-header {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 0px;
+  }
+  .left-bar {
+    padding-top: 25px;
+    padding-left: 50px;
+    width: 100vw;
+  }
+  .left-bar .tabs {
+    padding-top: 15px;
+  }
+  .right-bar a {
+  }
+  .right-bar {
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-left: -110px;
+  }
+  .card {
+    justify-content: center;
+    width: 90vw;
+    align-items: flex-start;
+    height: 350px;
+    flex-direction: column;
+  }
+  .card .dates {
+    padding: 0 0 20px 0;
+    margin: 0 25px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+  }
+  .card .status {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .card .description {
+    padding: 20px 20px;
+    flex-grow: 0;
+  }
+  .promotion-banner {
+    height: 250px;
+  }
+}
+
+.s-active {
+  transform: translateX(100%);
+}

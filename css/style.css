@@ -3,11 +3,12 @@
 @import url("components/booking-header.css");
 @import url("components/booking-body.css");
 @import url("components/promotion-card.css");
+@import url("components/responsive.css");
+@import url("components/burger.css");
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -16,5 +17,10 @@ body {
 }
 
 .wrapper {
+  overflow-x: hidden;
   display: flex;
+}
+
+.sidebar-active {
+  transform: translateX(100%);
 }

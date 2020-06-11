@@ -1,13 +1,12 @@
 .bookings-section {
-  width: 100%;
+  width: 100vw;
 }
 
 .bookings-header {
+  padding: 0 90px;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 90px;
-  width: 100%;
   background-color: white;
   height: 21vh;
 }

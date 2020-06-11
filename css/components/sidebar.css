@@ -43,12 +43,12 @@
   margin-left: 5px;
 }
 
-.menu-wrap a:hover{
+.menu-wrap a:hover {
   color: #1c1c1c;
   border-radius: 10px;
   background-color: #b9e5eb;
 }
-.active-2{
+.active-2 {
   color: #1c1c1c;
   border-radius: 10px;
   background-color: #b9e5eb;
@@ -79,15 +79,13 @@ hr {
   font-weight: 500;
   font-size: 0.9rem;
 }
-.footer .log-out{
+.footer .log-out {
   text-decoration: none;
   cursor: pointer;
   font-weight: 600;
   color: #0dafc8;
   font-size: 1rem;
 }
-.footer .log-out:hover{
+.footer .log-out:hover {
   color: black;
 }
-
-
